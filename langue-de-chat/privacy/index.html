@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — LangueDeChat</title>
+    <meta name="description" content="LangueDeChat privacy policy. Your parcels stay on your device; tracking numbers go only to the carriers you look them up with.">
+    <link rel="canonical" href="https://shakshi3104.github.io/apps/langue-de-chat/privacy/">
+    <meta property="og:title" content="Privacy Policy — LangueDeChat">
+    <meta property="og:description" content="LangueDeChat のプライバシーポリシー。データは端末内に保存され、追跡番号は照会のときだけ配送業者へ送られます。">
+    <meta property="og:url" content="https://shakshi3104.github.io/apps/langue-de-chat/privacy/">
+    <meta property="og:image" content="https://shakshi3104.github.io/apps/langue-de-chat/assets/langue-de-chat-og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Privacy Policy — LangueDeChat">
+    <meta name="twitter:description" content="LangueDeChat のプライバシーポリシー。データは端末内に保存され、追跡番号は照会のときだけ配送業者へ送られます。">
+    <meta name="twitter:image" content="https://shakshi3104.github.io/apps/langue-de-chat/assets/langue-de-chat-og-image.png">
+    <link rel="icon" type="image/png" href="../assets/icon.png">
+    <style>
+        :root {
+            --bg: #FAF6EE;
+            --text: #3A2A1A;
+            --text-soft: #6B5840;
+            --accent: #0B7BCC;
+            --accent-deep: #0A6DB5;
+            --card: #FFFFFF;
+            --border: #E8DFCD;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        header.top {
+            padding: 32px 24px 24px;
+            text-align: center;
+        }
+
+        header.top a.back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--accent-deep);
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        header.top a.back:hover {
+            color: var(--accent);
+        }
+
+        header.top img.icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 14px;
+            box-shadow: 0 6px 16px rgba(18, 143, 232, 0.18);
+            display: block;
+            margin: 0 auto 16px;
+        }
+
+        header.top h1 {
+            font-size: 32px;
+            letter-spacing: -0.01em;
+            margin-bottom: 8px;
+        }
+
+        header.top .meta {
+            color: var(--text-soft);
+            font-size: 14px;
+        }
+
+        /* Language toggle */
+        .lang-toggle {
+            display: inline-flex;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            padding: 4px;
+            margin-top: 24px;
+        }
+
+        .lang-toggle button {
+            background: transparent;
+            border: none;
+            padding: 8px 20px;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-soft);
+            border-radius: 999px;
+            cursor: pointer;
+            font-family: inherit;
+            transition: background 0.15s, color 0.15s;
+        }
+
+        .lang-toggle button.active {
+            background: var(--accent);
+            color: #FFF;
+        }
+
+        .lang-toggle button:not(.active):hover {
+            color: var(--text);
+        }
+
+        /* Content */
+        article {
+            padding: 24px 24px 64px;
+        }
+
+        .lang-section {
+            display: none;
+        }
+
+        .lang-section.active {
+            display: block;
+        }
+
+        article h3 {
+            font-size: 18px;
+            margin: 32px 0 12px;
+            color: var(--text);
+        }
+
+        article > .lang-section > h3:first-child,
+        article > .lang-section > p:first-child {
+            margin-top: 0;
+        }
+
+        article p {
+            margin-bottom: 16px;
+            color: var(--text-soft);
+        }
+
+        article p strong {
+            color: var(--text);
+        }
+
+        article ul {
+            margin: 16px 0 16px 24px;
+            color: var(--text-soft);
+        }
+
+        article ul li {
+            margin-bottom: 6px;
+        }
+
+        article a {
+            color: var(--accent-deep);
+            text-decoration: none;
+            border-bottom: 1px solid var(--accent);
+        }
+
+        article a:hover {
+            color: var(--accent);
+        }
+
+        /* Footer */
+        footer {
+            padding: 48px 24px;
+            text-align: center;
+            color: var(--text-soft);
+            font-size: 14px;
+            border-top: 1px solid var(--border);
+        }
+
+        footer .links {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        footer a {
+            color: var(--text-soft);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--accent-deep);
+        }
+
+        footer .copyright {
+            font-size: 12px;
+            opacity: 0.7;
+        }
+
+        @media (max-width: 600px) {
+            header.top h1 {
+                font-size: 26px;
+            }
+            article h3 {
+                font-size: 17px;
+                margin: 28px 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header class="top container">
+    <a href="../" class="back">← LangueDeChat</a>
+    <img class="icon" src="../assets/icon.png" alt="LangueDeChat icon">
+    <h1>Privacy Policy</h1>
+    <p class="meta">最終更新日 / Effective date: 2026/08/13</p>
+    <div class="lang-toggle" role="tablist" aria-label="Language">
+        <button type="button" data-lang="ja" class="active" role="tab" aria-selected="true">日本語</button>
+        <button type="button" data-lang="en" role="tab" aria-selected="false">English</button>
+    </div>
+</header>
+
+<article class="container">
+
+    <section class="lang-section active" data-lang="ja">
+        <p>LangueDeChatは、日本郵便・ヤマト運輸・佐川急便の配送状況を1つの画面で確認するiOSアプリです。本アプリは、ユーザーのデータを端末内に留めることを設計の基本方針としています。本ポリシーでは、本アプリが取り扱う情報、その利用目的、保存方法、および外部との通信を明記します。</p>
+
+        <h3>取り扱う情報</h3>
+        <p>本アプリでは、以下の情報を取り扱います。いずれも、ユーザーの端末内にのみ保存されます。</p>
+        <ul>
+            <li><strong>追跡番号と配送業者</strong>: ユーザーが登録した荷物の追跡番号と、その配送業者の種別を保存します。</li>
+            <li><strong>ユーザーが入力した情報</strong>: 荷物ごとのニックネーム、メモ、注文ページのURLを保存します。</li>
+            <li><strong>取得した配送状況</strong>: 配送業者から取得した配送ステータス、荷物の履歴、配達予定日時などを、再表示のために端末内にキャッシュします。</li>
+            <li><strong>登録日時と最終更新日時</strong>: 荷物を追加した日時と、最後に配送状況を取得した日時を保存します。</li>
+        </ul>
+        <p>本アプリは、利用統計、クラッシュレポート、位置情報、端末識別子、広告識別子(IDFA)、ユーザーアカウント情報などを一切収集しません。第三者製の解析・広告SDKは組み込まれていません。</p>
+
+        <h3>外部との通信</h3>
+        <p>本アプリは以下の目的で外部と通信します。いずれもユーザーが登録または操作した範囲でのみ発生します。</p>
+        <ul>
+            <li><strong>配送状況の照会</strong>: ユーザーが登録した追跡番号を、該当する配送業者(日本郵便・ヤマト運輸・佐川急便)が一般に公開している追跡ページへ送信し、その結果を取得します。<strong>本アプリが外部へ送信する情報は、この追跡番号のみです。</strong>各社との通信は、それぞれの利用規約・プライバシーポリシーに従います。</li>
+            <li><strong>注文ページの表示</strong>: ユーザーが荷物に登録した注文URLを開いたときに、その遷移先サイトと通信します。表示先のサイトとの通信は、各サイトの利用規約・プライバシーポリシーに従います。</li>
+        </ul>
+        <p>本アプリの開発者が運営するサーバーは存在せず、開発者がユーザーの追跡番号、荷物の内容、通信内容を知る手段はありません。</p>
+
+        <h3>共有シートからの登録</h3>
+        <p>本アプリは、他のアプリの共有シートから荷物を登録する機能を備えています。共有された内容は、荷物を登録するためにのみ利用され、端末内の同じ保存領域(App Group)に書き込まれます。外部へ送信されることはありません。</p>
+
+        <h3>ウィジェットとライブアクティビティ</h3>
+        <p>ホーム画面のウィジェット、ロック画面のライブアクティビティ、ダイナミックアイランド、Apple Watchのスマートスタックに配送状況を表示するため、必要な情報を端末内で共有します。これらの表示のために外部へ情報が送信されることはありません。</p>
+
+        <h3>情報の利用目的</h3>
+        <p>取得した情報は、以下の目的のみに利用します。</p>
+        <ul>
+            <li>本アプリの機能(配送状況の取得・一覧表示・詳細表示)の提供</li>
+            <li>ウィジェット、ライブアクティビティ等への配送状況の表示</li>
+        </ul>
+
+        <h3>第三者への提供</h3>
+        <p>本アプリは、ユーザーのデータを第三者に提供、販売、貸与することはありません。ただし、法令に基づく開示要請があった場合を除きます。</p>
+
+        <h3>データの保存</h3>
+        <p>本アプリのデータは、ユーザーの端末内にのみ保存されます。LangueDeChat開発者はこれらのデータにアクセスする手段を持ちません。データの管理・削除はユーザー自身で行うことができます(アプリ内で荷物を削除する、またはデバイスからアプリを削除することで全データが消去されます)。</p>
+
+        <h3>本ポリシーの変更</h3>
+        <p>本プライバシーポリシーは必要に応じて更新されることがあります。変更後のポリシーは本ページに掲載した時点で効力を生じます。重要な変更があった場合は、ページ上部の「最終更新日」を更新します。</p>
+
+        <h3>お問い合わせ</h3>
+        <p>本プライバシーポリシーに関するご質問は、<a href="mailto:shakshi3104.support@icloud.com">shakshi3104.support@icloud.com</a> までお送りください。</p>
+    </section>
+
+    <section class="lang-section" data-lang="en">
+        <p>LangueDeChat is an iOS app that shows the delivery status of parcels from Japan Post, Yamato Transport, and Sagawa Express on a single screen. The app is designed to keep your data on your device. This policy explains what information the app handles, how it is used, how it is stored, and when it communicates externally.</p>
+
+        <h3>Information we handle</h3>
+        <p>LangueDeChat handles the following information. All of it is stored only on your device.</p>
+        <ul>
+            <li><strong>Tracking numbers and carriers</strong>: The tracking number of each parcel you add and which carrier it belongs to.</li>
+            <li><strong>Information you enter</strong>: The nickname, notes, and order page URL you attach to each parcel.</li>
+            <li><strong>Fetched delivery status</strong>: Delivery status, tracking history, and estimated delivery dates retrieved from the carrier are cached on your device so they can be shown again.</li>
+            <li><strong>Timestamps</strong>: When you added a parcel and when its status was last refreshed.</li>
+        </ul>
+        <p>LangueDeChat does not collect usage analytics, crash reports, location data, device identifiers, advertising identifiers (IDFA), or user account information. No third-party analytics or advertising SDKs are integrated.</p>
+
+        <h3>External communication</h3>
+        <p>LangueDeChat communicates externally for the following purposes only. All communication occurs within the scope of the parcels you have added or actions you have taken.</p>
+        <ul>
+            <li><strong>Looking up delivery status</strong>: LangueDeChat sends the tracking number you registered to the corresponding carrier's publicly available tracking page (Japan Post, Yamato Transport, or Sagawa Express) and reads back the result. <strong>The tracking number is the only information the app sends externally.</strong> Communication with each carrier is governed by that carrier's own terms and privacy policy.</li>
+            <li><strong>Opening an order page</strong>: When you open the order URL you attached to a parcel, the app communicates with that destination site. Such communication is governed by that site's own terms and privacy policy.</li>
+        </ul>
+        <p>LangueDeChat's developer does not operate any server, and has no means of knowing your tracking numbers, what your parcels contain, or what the app transmits.</p>
+
+        <h3>Adding parcels from the share sheet</h3>
+        <p>LangueDeChat can register a parcel from another app's share sheet. Shared content is used solely to register the parcel and is written to the same on-device storage (App Group) the app uses. It is never sent externally.</p>
+
+        <h3>Widgets and Live Activities</h3>
+        <p>To display delivery status in Home Screen widgets, Lock Screen Live Activities, the Dynamic Island, and the Apple Watch Smart Stack, the necessary information is shared on-device between the app and these extensions. No information is sent externally for these displays.</p>
+
+        <h3>Purpose of use</h3>
+        <p>The information handled is used solely for the following purposes:</p>
+        <ul>
+            <li>Providing app functionality (fetching, listing, and detailing delivery status)</li>
+            <li>Displaying delivery status in widgets, Live Activities, and similar surfaces</li>
+        </ul>
+
+        <h3>Sharing with third parties</h3>
+        <p>LangueDeChat does not provide, sell, or lease your data to any third party, except when disclosure is required by law.</p>
+
+        <h3>Data storage</h3>
+        <p>Your data is stored only on your device. LangueDeChat's developer has no means of accessing this data. You can manage and delete your data yourself, either by deleting parcels within the app or by deleting the app from your device — which removes all stored data.</p>
+
+        <h3>Changes to this policy</h3>
+        <p>This privacy policy may be updated as needed. Updated policies take effect when posted to this page. Significant changes will be reflected in the "Effective date" at the top of the page.</p>
+
+        <h3>Contact</h3>
+        <p>For questions about this privacy policy, please email <a href="mailto:shakshi3104.support@icloud.com">shakshi3104.support@icloud.com</a>.</p>
+    </section>
+
+</article>
+
+<footer>
+    <div class="links">
+        <a href="../../">Apps</a>
+        <a href="../">LangueDeChat</a>
+        <a href="https://github.com/Shakshi3104/LangueDeChat">GitHub</a>
+        <a href="mailto:shakshi3104.support@icloud.com">Contact</a>
+    </div>
+    <p class="copyright">© 2026 Shakshi3104</p>
+</footer>
+
+<script>
+    (function() {
+        const STORAGE_KEY = "languedechat_privacy_lang";
+        const buttons = document.querySelectorAll(".lang-toggle button");
+        const sections = document.querySelectorAll(".lang-section");
+
+        function setLang(lang) {
+            buttons.forEach(btn => {
+                const isActive = btn.dataset.lang === lang;
+                btn.classList.toggle("active", isActive);
+                btn.setAttribute("aria-selected", isActive);
+            });
+            sections.forEach(sec => {
+                sec.classList.toggle("active", sec.dataset.lang === lang);
+            });
+            document.documentElement.lang = lang;
+            try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+        }
+
+        const saved = (() => {
+            try { return localStorage.getItem(STORAGE_KEY); } catch (e) { return null; }
+        })();
+        if (saved === "en" || saved === "ja") {
+            setLang(saved);
+        }
+
+        buttons.forEach(btn => {
+            btn.addEventListener("click", () => setLang(btn.dataset.lang));
+        });
+    })();
+</script>
+
+</body>
+</html>

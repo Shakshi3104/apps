@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LangueDeChat — 配達の状況をひとつの画面で</title>
+    <meta name="description" content="配達の状況をひとつの画面で。日本郵便・ヤマト・佐川に対応した iOS の配送追跡アプリ。">
+    <link rel="canonical" href="https://shakshi3104.github.io/apps/langue-de-chat/">
+    <meta property="og:title" content="LangueDeChat">
+    <meta property="og:description" content="配達の状況をひとつの画面で。">
+    <meta property="og:url" content="https://shakshi3104.github.io/apps/langue-de-chat/">
+    <meta property="og:image" content="https://shakshi3104.github.io/apps/langue-de-chat/assets/langue-de-chat-og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LangueDeChat">
+    <meta name="twitter:description" content="配達の状況をひとつの画面で。">
+    <meta name="twitter:image" content="https://shakshi3104.github.io/apps/langue-de-chat/assets/langue-de-chat-og-image.png">
+    <link rel="icon" type="image/png" href="assets/icon.png">
+    <style>
+        :root {
+            --bg: #FAF6EE;
+            --text: #3A2A1A;
+            --text-soft: #6B5840;
+            --accent: #0B7BCC;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 560px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Hero */
+        .hero {
+            padding: 120px 24px 16px;
+            text-align: center;
+        }
+
+        .hero img.icon {
+            width: 96px;
+            height: 96px;
+            border-radius: 22px;
+            margin-bottom: 32px;
+            box-shadow: 0 10px 24px rgba(18, 143, 232, 0.20);
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 16px;
+        }
+
+        .hero p.tagline {
+            font-size: 17px;
+            color: var(--text-soft);
+        }
+
+        /* Main visual */
+        .main-visual {
+            padding: 0 24px;
+            text-align: center;
+        }
+
+        .main-visual img {
+            width: 100%;
+            max-width: 880px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Features (minimal list) */
+        .features {
+            padding: 16px 24px 64px;
+        }
+
+        .features ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .features li {
+            text-align: center;
+        }
+
+        .features li strong {
+            display: block;
+            font-size: 17px;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+
+        .features li span {
+            font-size: 15px;
+            color: var(--text-soft);
+        }
+
+        /* Footer */
+        footer {
+            padding: 64px 24px 48px;
+            text-align: center;
+            color: var(--text-soft);
+            font-size: 13px;
+        }
+
+        footer .links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        footer a {
+            color: var(--text-soft);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--accent);
+        }
+
+        footer .copyright {
+            font-size: 12px;
+            opacity: 0.6;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .hero {
+                padding: 80px 24px 32px;
+            }
+            .hero h1 {
+                font-size: 32px;
+            }
+            .hero p.tagline {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header class="hero">
+    <img class="icon" src="assets/icon.png" alt="LangueDeChat icon">
+    <h1>LangueDeChat</h1>
+    <p class="tagline">配達の状況をひとつの画面で。</p>
+</header>
+
+<section class="main-visual">
+    <img src="assets/langue-de-chat-main-image.png" alt="LangueDeChat app screens">
+</section>
+
+<section class="features container">
+    <ul>
+        <li>
+            <strong>3社をひとつのリストに</strong>
+            <span>日本郵便・ヤマト・佐川の荷物をまとめて追跡</span>
+        </li>
+        <li>
+            <strong>ロック画面で進捗を追う</strong>
+            <span>ライブアクティビティとダイナミックアイランドに対応</span>
+        </li>
+        <li>
+            <strong>アカウント不要</strong>
+            <span>データは端末の中に。追跡番号は照会のときだけ配送業者へ</span>
+        </li>
+    </ul>
+</section>
+
+<footer>
+    <div class="links">
+        <a href="../">Apps</a>
+        <a href="https://github.com/Shakshi3104/LangueDeChat">GitHub</a>
+        <a href="privacy/">Privacy</a>
+        <a href="mailto:shakshi3104.support@icloud.com">Contact</a>
+    </div>
+    <p class="copyright">© 2026 Shakshi3104</p>
+</footer>
+
+</body>
+</html>
