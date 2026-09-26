@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Monaka</title>
+    <meta name="description" content="Monaka privacy policy. The spots you save stay on your device; the developer collects nothing.">
+    <link rel="canonical" href="https://shakshi3104.github.io/apps/monaka/privacy/">
+    <meta property="og:title" content="Privacy Policy — Monaka">
+    <meta property="og:description" content="Monaka のプライバシーポリシー。保存したスポットは端末の中だけに。開発者が収集する情報はありません。">
+    <meta property="og:url" content="https://shakshi3104.github.io/apps/monaka/privacy/">
+    <meta property="og:image" content="https://shakshi3104.github.io/apps/monaka/assets/monaka-og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Privacy Policy — Monaka">
+    <meta name="twitter:description" content="Monaka のプライバシーポリシー。保存したスポットは端末の中だけに。開発者が収集する情報はありません。">
+    <meta name="twitter:image" content="https://shakshi3104.github.io/apps/monaka/assets/monaka-og-image.png">
+    <link rel="icon" type="image/png" href="../assets/icon.png">
+    <style>
+        :root {
+            --bg: #F6F4EC;
+            --text: #1E2548;
+            --text-soft: #5B6182;
+            --accent: #3D56B2;
+            --accent-deep: #2C3F8A;
+            --card: #FFFFFF;
+            --border: #E4E1D6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        header.top {
+            padding: 32px 24px 24px;
+            text-align: center;
+        }
+
+        header.top a.back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--accent-deep);
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        header.top a.back:hover {
+            color: var(--accent);
+        }
+
+        header.top img.icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 14px;
+            box-shadow: 0 6px 16px rgba(61, 86, 178, 0.18);
+            display: block;
+            margin: 0 auto 16px;
+        }
+
+        header.top h1 {
+            font-size: 32px;
+            letter-spacing: -0.01em;
+            margin-bottom: 8px;
+        }
+
+        header.top .meta {
+            color: var(--text-soft);
+            font-size: 14px;
+        }
+
+        /* Language toggle */
+        .lang-toggle {
+            display: inline-flex;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            padding: 4px;
+            margin-top: 24px;
+        }
+
+        .lang-toggle button {
+            background: transparent;
+            border: none;
+            padding: 8px 20px;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-soft);
+            border-radius: 999px;
+            cursor: pointer;
+            font-family: inherit;
+            transition: background 0.15s, color 0.15s;
+        }
+
+        .lang-toggle button.active {
+            background: var(--accent);
+            color: #FFF;
+        }
+
+        .lang-toggle button:not(.active):hover {
+            color: var(--text);
+        }
+
+        /* Content */
+        article {
+            padding: 24px 24px 64px;
+        }
+
+        .lang-section {
+            display: none;
+        }
+
+        .lang-section.active {
+            display: block;
+        }
+
+        article h3 {
+            font-size: 18px;
+            margin: 32px 0 12px;
+            color: var(--text);
+        }
+
+        article > .lang-section > h3:first-child,
+        article > .lang-section > p:first-child {
+            margin-top: 0;
+        }
+
+        article p {
+            margin-bottom: 16px;
+            color: var(--text-soft);
+        }
+
+        article p strong {
+            color: var(--text);
+        }
+
+        article ul {
+            margin: 16px 0 16px 24px;
+            color: var(--text-soft);
+        }
+
+        article ul li {
+            margin-bottom: 6px;
+        }
+
+        article a {
+            color: var(--accent-deep);
+            text-decoration: none;
+            border-bottom: 1px solid var(--accent);
+        }
+
+        article a:hover {
+            color: var(--accent);
+        }
+
+        /* Footer */
+        footer {
+            padding: 48px 24px;
+            text-align: center;
+            color: var(--text-soft);
+            font-size: 14px;
+            border-top: 1px solid var(--border);
+        }
+
+        footer .links {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        footer a {
+            color: var(--text-soft);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--accent-deep);
+        }
+
+        footer .copyright {
+            font-size: 12px;
+            opacity: 0.7;
+        }
+
+        @media (max-width: 600px) {
+            header.top h1 {
+                font-size: 26px;
+            }
+            article h3 {
+                font-size: 17px;
+                margin: 28px 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header class="top container">
+    <a href="../" class="back">← Monaka</a>
+    <img class="icon" src="../assets/icon.png" alt="Monaka icon">
+    <h1>Privacy Policy</h1>
+    <p class="meta">最終更新日 / Effective date: 2026/09/26</p>
+    <div class="lang-toggle" role="tablist" aria-label="Language">
+        <button type="button" data-lang="ja" class="active" role="tab" aria-selected="true">日本語</button>
+        <button type="button" data-lang="en" role="tab" aria-selected="false">English</button>
+    </div>
+</header>
+
+<article class="container">
+
+    <section class="lang-section active" data-lang="ja">
+        <p>Monakaは、行きたい展示やイベント、お店を会期とともに保存するiOSアプリです。本アプリは、ユーザーのデータを端末内に留めることを設計の基本方針としています。本ポリシーでは、本アプリが取り扱う情報、その利用目的、保存方法を明記します。</p>
+
+        <h3>保存する情報</h3>
+        <p>ユーザーが保存したスポット(タイトル、会場、URL、メモ、会期、場所、タグ、訪問記録)は、端末内にのみ保存されます。本アプリと共有シートからの保存機能は、端末内の同じ保存領域を使います。iCloudを含め、外部のサーバーには保存・同期されません。</p>
+
+        <h3>外部との通信</h3>
+        <p>本アプリは、以下の機能を使ったときにのみ外部と通信します。Monaka開発者のサーバーは存在せず、開発者がこれらの通信の内容を受け取ることはありません。</p>
+        <ul>
+            <li><strong>Webページの読み取り</strong>: URLを貼り付けたり共有したりすると、タイトルや画像、会期などを読み取るため、本アプリはそのWebページに直接アクセスします。Google Mapsの短縮リンクは、場所の名前と座標を得るためにリンク先を確認します。保存したスポットの画像は、表示するときに元のサイトから読み込みます。これらのアクセスでは、通常のWebブラウザでの閲覧と同様に、アクセス先のサイトにIPアドレスなどの情報が伝わります。</li>
+            <li><strong>場所の検索と地図</strong>: 場所を検索したり、共有したスポットを自動で地図に配置したりするとき、会場名・住所・タイトルがAppleのマップサービスに送信されます。地図の表示にもAppleのマップサービスを利用します。これらにはAppleのプライバシーポリシーが適用されます。</li>
+        </ul>
+
+        <h3>端末上のAIによる読み取り</h3>
+        <p>Apple Intelligenceが利用できる端末では、Webページの本文や共有された投稿の文章から、会場・会期・要約・合いそうなタグを、端末上の言語モデル(Foundation Models)で読み取ります。この処理はすべて端末上で行われ、文章がMonaka開発者や第三者に送信されることはありません。</p>
+
+        <h3>位置情報</h3>
+        <p>設定で「距離順に並べる」をオンにし、位置情報の利用を許可した場合に限り、現在地を取得します。現在地は、スポットまでの距離の計算と地図上の現在地の表示のためだけに端末上で使われ、保存・送信されることはありません。許可しなくても、本アプリのその他の機能はすべて利用できます。</p>
+
+        <h3>通知</h3>
+        <p>設定で通知をオンにした場合に限り、会期が終わる3日前にお知らせします。通知は端末内でスケジュールされ、外部のサーバーを経由しません。</p>
+
+        <h3>収集しない情報</h3>
+        <p>本アプリは、アカウント登録を必要とせず、利用統計、クラッシュレポート、端末識別子、広告識別子(IDFA)などの情報を一切収集しません。第三者製の解析・広告SDKは組み込まれていません。</p>
+
+        <h3>第三者への提供</h3>
+        <p>本アプリは、ユーザーのデータを第三者に提供、販売、貸与することはありません。ただし、法令に基づく開示要請があった場合を除きます。</p>
+
+        <h3>データの削除</h3>
+        <p>スポットはアプリ内でいつでも削除できます。本アプリを削除すると、保存したすべてのデータが端末から削除されます。</p>
+
+        <h3>本ポリシーの変更</h3>
+        <p>本プライバシーポリシーは必要に応じて更新されることがあります。変更後のポリシーは本ページに掲載した時点で効力を生じます。重要な変更があった場合は、ページ上部の「最終更新日」を更新します。</p>
+
+        <h3>お問い合わせ</h3>
+        <p>本プライバシーポリシーに関するご質問は、<a href="mailto:shakshi3104.support@icloud.com">shakshi3104.support@icloud.com</a> までお送りください。</p>
+    </section>
+
+    <section class="lang-section" data-lang="en">
+        <p>Monaka is an iOS app for saving the exhibitions, events and shops you want to visit, together with their run. The app is designed to keep your data on your device. This policy explains what information the app handles, how it is used, and how it is stored.</p>
+
+        <h3>Information we store</h3>
+        <p>The spots you save (title, venue, URL, notes, run, location, tags and visit history) are stored only on your device. The app and its share extension use the same storage on your device. Nothing is stored on or synced to any server, including iCloud.</p>
+
+        <h3>Network access</h3>
+        <p>Monaka connects to the network only when you use the features below. Monaka has no servers of its own, and its developer never receives the content of these requests.</p>
+        <ul>
+            <li><strong>Reading web pages</strong>: When you paste or share a URL, Monaka accesses that web page directly to read its title, image and run. For a Google Maps short link, it follows the link to find the place's name and coordinates. Images of saved spots are loaded from their original sites when shown. As with any web browser, these sites receive information such as your IP address.</li>
+            <li><strong>Place search and maps</strong>: When you search for a place, or when a shared spot is placed on the map automatically, the venue name, address or title is sent to Apple's map services. Maps are also displayed using Apple's map services. Apple's privacy policy applies to these.</li>
+        </ul>
+
+        <h3>On-device AI</h3>
+        <p>On devices with Apple Intelligence, Monaka uses the on-device language model (Foundation Models) to read the venue, run, a short summary and matching tags from a web page or a shared post. This processing happens entirely on your device, and the text is never sent to Monaka's developer or any third party.</p>
+
+        <h3>Location</h3>
+        <p>Monaka reads your location only if you turn on "Sort by Distance" in Settings and grant permission. Your location is used on your device solely to calculate the distance to your spots and to show where you are on the map. It is never stored or transmitted. Everything else in the app works without location access.</p>
+
+        <h3>Notifications</h3>
+        <p>If you turn on reminders in Settings, Monaka notifies you three days before a run ends. Notifications are scheduled on your device and never go through a server.</p>
+
+        <h3>Information we don't collect</h3>
+        <p>Monaka requires no account and does not collect usage analytics, crash reports, device identifiers, or advertising identifiers (IDFA). No third-party analytics or advertising SDKs are integrated.</p>
+
+        <h3>Sharing with third parties</h3>
+        <p>Monaka does not provide, sell, or lease your data to any third party, except when disclosure is required by law.</p>
+
+        <h3>Deleting your data</h3>
+        <p>You can delete any spot within the app at any time. Deleting the app removes all of its data from your device.</p>
+
+        <h3>Changes to this policy</h3>
+        <p>This privacy policy may be updated as needed. Updated policies take effect when posted to this page. Significant changes will be reflected in the "Effective date" at the top of the page.</p>
+
+        <h3>Contact</h3>
+        <p>For questions about this privacy policy, please email <a href="mailto:shakshi3104.support@icloud.com">shakshi3104.support@icloud.com</a>.</p>
+    </section>
+
+</article>
+
+<footer>
+    <div class="links">
+        <a href="../../">Apps</a>
+        <a href="../">Monaka</a>
+        <a href="https://github.com/Shakshi3104/Monaka">GitHub</a>
+        <a href="mailto:shakshi3104.support@icloud.com">Contact</a>
+    </div>
+    <p class="copyright">© 2026 Shakshi3104</p>
+</footer>
+
+<script>
+    (function() {
+        const STORAGE_KEY = "monaka_privacy_lang";
+        const buttons = document.querySelectorAll(".lang-toggle button");
+        const sections = document.querySelectorAll(".lang-section");
+
+        function setLang(lang) {
+            buttons.forEach(btn => {
+                const isActive = btn.dataset.lang === lang;
+                btn.classList.toggle("active", isActive);
+                btn.setAttribute("aria-selected", isActive);
+            });
+            sections.forEach(sec => {
+                sec.classList.toggle("active", sec.dataset.lang === lang);
+            });
+            document.documentElement.lang = lang;
+            try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+        }
+
+        const saved = (() => {
+            try { return localStorage.getItem(STORAGE_KEY); } catch (e) { return null; }
+        })();
+        if (saved === "en" || saved === "ja") {
+            setLang(saved);
+        }
+
+        buttons.forEach(btn => {
+            btn.addEventListener("click", () => setLang(btn.dataset.lang));
+        });
+    })();
+</script>
+
+</body>
+</html>
