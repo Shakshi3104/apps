@@ -14,6 +14,8 @@ are registered in App Store Connect, so **paths must not change once an app has 
 /yomy/privacy/
 /langue-de-chat/         https://github.com/Shakshi3104/LangueDeChat
 /langue-de-chat/privacy/
+/monaka/                 https://github.com/Shakshi3104/Monaka
+/monaka/privacy/
 ```
 
 ## Adding an app
