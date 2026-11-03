@@ -265,7 +265,7 @@
         <p>本アプリのデータは、ユーザーの端末内にのみ保存されます。yomy 開発者はこれらのデータにアクセスする手段を持ちません。データの管理・削除はユーザー自身で行うことができます。</p>
         <ul>
             <li><strong>フィードの購読解除</strong>: 購読解除時に「Keep saved articles」をオンにすると(初期設定)、保存した記事とその配信元フィードの情報(URL・タイトル)は端末内に残り、それ以外の記事は削除されます。オフにすると、フィードとそのすべての記事が削除されます。</li>
-            <li><strong>残した記事の扱い</strong>: 購読解除後に残した記事の保存を解除しても、その記事と配信元フィードの情報は端末内に残ります。同じフィードを再度購読すると、既読・保存の状態が引き継がれます。</li>
+            <li><strong>残した記事の扱い</strong>: 購読解除後に残した記事の保存を解除すると、その記事は次にアプリを起動したときに端末から削除されます。残した記事がなくなると、配信元フィードの情報も削除されます。記事を残したまま同じフィードを再度購読すると、既読・保存の状態が引き継がれます。</li>
             <li><strong>OPML の書き出し</strong>: 設定画面から購読中のフィード一覧を OPML ファイルとして書き出せます。書き出したファイルは、ユーザーが選んだ場所に保存されます。</li>
             <li><strong>すべてのデータの削除</strong>: デバイスからアプリを削除すると、ウィジェット用のデータを含むすべてのデータが消去されます。</li>
         </ul>
@@ -311,7 +311,7 @@
         <p>Your data is stored only on your device. yomy's developer has no means of accessing this data. You can manage and delete your data yourself.</p>
         <ul>
             <li><strong>Unsubscribing from a feed</strong>: If "Keep saved articles" is on when you unsubscribe (the default), your saved articles and their source feed's information (URL and title) remain on your device, and all other articles from that feed are removed. If it is off, the feed and all of its articles are removed.</li>
-            <li><strong>Kept articles</strong>: Unsaving an article you kept after unsubscribing does not remove it; the article and its source feed's information remain on your device. If you subscribe to the same feed again, its read and saved states are restored.</li>
+            <li><strong>Kept articles</strong>: If you unsave an article you kept after unsubscribing, it is removed from your device the next time you open the app. Once no kept articles remain, the source feed's information is removed too. If you subscribe to the same feed again while articles are still kept, their read and saved states are restored.</li>
             <li><strong>Exporting OPML</strong>: You can export your subscribed feeds as an OPML file from Settings. The exported file is saved to the location you choose.</li>
             <li><strong>Removing all data</strong>: Deleting the app from your device removes all stored data, including the data used by the widget.</li>
         </ul>
